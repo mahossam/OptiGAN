@@ -1,7 +1,10 @@
 ## OptiGAN
 
 This repository contains the code to reproduce the core results 
-from of OptiGAN []().
+from of OptiGAN
+```
+Mahmoud Hossam, Trung Le, Viet Huynh, Michael Papasimeon, and Dinh Phung. OptiGAN: Generative Adversarial Networks for Goal Optimized Sequence Generation. The 2020 International Joint Conference on Neural Networks (IJCNN 2020)
+```
 
 ## Dependencies
 This project uses Python 3.6.x, with the following lib dependencies:
@@ -31,10 +34,10 @@ Note to replace [job_id] and [gpu_id] with appropriate numerical values, (0, 0) 
 To cite this work, please use
 ```
 @INPROCEEDINGS{,
-  author = {},
-  title = {},
-  booktitle = {},
-  year = {}
+  author = {Mahmoud Hossam, Trung Le, Viet Huynh, Michael Papasimeon, and Dinh Phung},
+  title = {{OptiGAN: Generative Adversarial Networks for Goal Optimized Sequence Generation}},
+  booktitle = {The 2020 International Joint Conference on Neural Networks ({IJCNN})},
+  year = {2020}
 }
 ```
 
