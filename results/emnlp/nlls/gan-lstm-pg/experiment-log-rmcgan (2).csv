@@ -1,0 +1,115 @@
+pre_gen_epoch:0   ,3.4321        
+pre_gen_epoch:10  ,2.4752        
+pre_gen_epoch:20  ,2.3448        
+pre_gen_epoch:30  ,2.2752        
+pre_gen_epoch:40  ,2.2500        
+pre_gen_epoch:50  ,2.2284        
+pre_gen_epoch:60  ,2.2204        
+pre_gen_epoch:70  ,2.1996        
+pre_gen_epoch:80  ,2.1940        
+pre_gen_epoch:90  ,2.1910        
+pre_gen_epoch:100 ,2.1927        
+pre_gen_epoch:110 ,2.1806        
+pre_gen_epoch:120 ,2.1774        
+pre_gen_epoch:130 ,2.1777        
+pre_gen_epoch:140 ,2.1706        
+adv_step: 0       ,2.1702             
+adv_step: 20      ,2.1706             
+adv_step: 40      ,2.1714             
+adv_step: 60      ,2.1730             
+adv_step: 80      ,2.1752             
+adv_step: 100     ,2.1776             
+adv_step: 120     ,2.1803             
+adv_step: 140     ,2.1831             
+adv_step: 160     ,2.1851             
+adv_step: 180     ,2.1859             
+adv_step: 200     ,2.1859             
+adv_step: 220     ,2.1858             
+adv_step: 240     ,2.1856             
+adv_step: 260     ,2.1847             
+adv_step: 280     ,2.1842             
+adv_step: 300     ,2.1849             
+adv_step: 320     ,2.1867             
+adv_step: 340     ,2.1896             
+adv_step: 360     ,2.1930             
+adv_step: 380     ,2.1966             
+adv_step: 400     ,2.2006             
+adv_step: 420     ,2.2047             
+adv_step: 440     ,2.2092             
+adv_step: 460     ,2.2134             
+adv_step: 480     ,2.2177             
+adv_step: 500     ,2.2232             
+adv_step: 520     ,2.2283             
+adv_step: 540     ,2.2326             
+adv_step: 560     ,2.2367             
+adv_step: 580     ,2.2398             
+adv_step: 600     ,2.2431             
+adv_step: 620     ,2.2456             
+adv_step: 640     ,2.2490             
+adv_step: 660     ,2.2503             
+adv_step: 680     ,2.2507             
+adv_step: 700     ,2.2513             
+adv_step: 720     ,2.2509             
+adv_step: 740     ,2.2493             
+adv_step: 760     ,2.2468             
+adv_step: 780     ,2.2439             
+adv_step: 800     ,2.2409             
+adv_step: 820     ,2.2388             
+adv_step: 840     ,2.2363             
+adv_step: 860     ,2.2341             
+adv_step: 880     ,2.2318             
+adv_step: 900     ,2.2280             
+adv_step: 920     ,2.2255             
+adv_step: 940     ,2.2233             
+adv_step: 960     ,2.2216             
+adv_step: 980     ,2.2186             
+adv_step: 1000    ,2.2165             
+adv_step: 1020    ,2.2135             
+adv_step: 1040    ,2.2108             
+adv_step: 1060    ,2.2081             
+adv_step: 1080    ,2.2042             
+adv_step: 1100    ,2.2029             
+adv_step: 1120    ,2.2002             
+adv_step: 1140    ,2.1972             
+adv_step: 1160    ,2.1939             
+adv_step: 1180    ,2.1922             
+adv_step: 1200    ,2.1908             
+adv_step: 1220    ,2.1893             
+adv_step: 1240    ,2.1876             
+adv_step: 1260    ,2.1860             
+adv_step: 1280    ,2.1847             
+adv_step: 1300    ,2.1832             
+adv_step: 1320    ,2.1826             
+adv_step: 1340    ,2.1816             
+adv_step: 1360    ,2.1806             
+adv_step: 1380    ,2.1798             
+adv_step: 1400    ,2.1793             
+adv_step: 1420    ,2.1789             
+adv_step: 1440    ,2.1780             
+adv_step: 1460    ,2.1772             
+adv_step: 1480    ,2.1768             
+adv_step: 1500    ,2.1764             
+adv_step: 1520    ,2.1760             
+adv_step: 1540    ,2.1759             
+adv_step: 1560    ,2.1758             
+adv_step: 1580    ,2.1756             
+adv_step: 1600    ,2.1755             
+adv_step: 1620    ,2.1752             
+adv_step: 1640    ,2.1747             
+adv_step: 1660    ,2.1746             
+adv_step: 1680    ,2.1742             
+adv_step: 1700    ,2.1740             
+adv_step: 1720    ,2.1738             
+adv_step: 1740    ,2.1736             
+adv_step: 1760    ,2.1735             
+adv_step: 1780    ,2.1732             
+adv_step: 1800    ,2.1730             
+adv_step: 1820    ,2.1728             
+adv_step: 1840    ,2.1726             
+adv_step: 1860    ,2.1725             
+adv_step: 1880    ,2.1723             
+adv_step: 1900    ,2.1721             
+adv_step: 1920    ,2.1718             
+adv_step: 1940    ,2.1717             
+adv_step: 1960    ,2.1716             
+adv_step: 1980    ,2.1716             

@@ -1,0 +1,115 @@
+pre_gen_epoch:0, g_pre_loss: 2.2554, nll_gen: 1.5201, bleu2: 0.4224, bleu3: 0.1777, bleu4: 0.0929, bleu5: 0.0655
+pre_gen_epoch:10, g_pre_loss: 1.0182, nll_gen: 0.9880, bleu2: 0.6969, bleu3: 0.4316, bleu4: 0.2388, bleu5: 0.1439
+pre_gen_epoch:20, g_pre_loss: 0.8778, nll_gen: 0.8598, bleu2: 0.7163, bleu3: 0.4739, bleu4: 0.2881, bleu5: 0.1734
+pre_gen_epoch:30, g_pre_loss: 0.8165, nll_gen: 0.8101, bleu2: 0.7232, bleu3: 0.4860, bleu4: 0.2954, bleu5: 0.1847
+pre_gen_epoch:40, g_pre_loss: 0.7837, nll_gen: 0.7863, bleu2: 0.7307, bleu3: 0.4743, bleu4: 0.2866, bleu5: 0.1801
+pre_gen_epoch:50, g_pre_loss: 0.7640, nll_gen: 0.7722, bleu2: 0.7190, bleu3: 0.4684, bleu4: 0.2805, bleu5: 0.1743
+pre_gen_epoch:60, g_pre_loss: 0.7518, nll_gen: 0.7586, bleu2: 0.7393, bleu3: 0.5093, bleu4: 0.3264, bleu5: 0.2016
+pre_gen_epoch:70, g_pre_loss: 0.7403, nll_gen: 0.7516, bleu2: 0.7179, bleu3: 0.4794, bleu4: 0.2915, bleu5: 0.1751
+pre_gen_epoch:80, g_pre_loss: 0.7343, nll_gen: 0.7457, bleu2: 0.7264, bleu3: 0.4819, bleu4: 0.3009, bleu5: 0.1929
+pre_gen_epoch:90, g_pre_loss: 0.7300, nll_gen: 0.7414, bleu2: 0.7236, bleu3: 0.4969, bleu4: 0.3127, bleu5: 0.1906
+pre_gen_epoch:100, g_pre_loss: 0.7232, nll_gen: 0.7367, bleu2: 0.7184, bleu3: 0.4799, bleu4: 0.2958, bleu5: 0.1857
+pre_gen_epoch:110, g_pre_loss: 0.7196, nll_gen: 0.7383, bleu2: 0.7372, bleu3: 0.4936, bleu4: 0.2977, bleu5: 0.1831
+pre_gen_epoch:120, g_pre_loss: 0.7181, nll_gen: 0.7378, bleu2: 0.7392, bleu3: 0.5115, bleu4: 0.3164, bleu5: 0.1934
+pre_gen_epoch:130, g_pre_loss: 0.7145, nll_gen: 0.7258, bleu2: 0.7263, bleu3: 0.5083, bleu4: 0.3154, bleu5: 0.1950
+pre_gen_epoch:140, g_pre_loss: 0.7084, nll_gen: 0.7252, bleu2: 0.7317, bleu3: 0.4912, bleu4: 0.3115, bleu5: 0.1977
+adv_step: 0, nll_gen: 0.7183, bleu2: 0.7355, bleu3: 0.4940, bleu4: 0.3011, bleu5: 0.1879
+adv_step: 20, nll_gen: 0.7183, bleu2: 0.7153, bleu3: 0.4869, bleu4: 0.3009, bleu5: 0.1792
+adv_step: 40, nll_gen: 0.7184, bleu2: 0.7336, bleu3: 0.5089, bleu4: 0.3254, bleu5: 0.2033
+adv_step: 60, nll_gen: 0.7185, bleu2: 0.7326, bleu3: 0.5062, bleu4: 0.3168, bleu5: 0.1923
+adv_step: 80, nll_gen: 0.7188, bleu2: 0.7479, bleu3: 0.5091, bleu4: 0.3099, bleu5: 0.1965
+adv_step: 100, nll_gen: 0.7192, bleu2: 0.7559, bleu3: 0.5300, bleu4: 0.3319, bleu5: 0.2130
+adv_step: 120, nll_gen: 0.7197, bleu2: 0.7509, bleu3: 0.5100, bleu4: 0.3146, bleu5: 0.1938
+adv_step: 140, nll_gen: 0.7203, bleu2: 0.7433, bleu3: 0.5201, bleu4: 0.3266, bleu5: 0.2056
+adv_step: 160, nll_gen: 0.7209, bleu2: 0.7541, bleu3: 0.5338, bleu4: 0.3355, bleu5: 0.2059
+adv_step: 180, nll_gen: 0.7217, bleu2: 0.7647, bleu3: 0.5350, bleu4: 0.3467, bleu5: 0.2223
+adv_step: 200, nll_gen: 0.7224, bleu2: 0.7486, bleu3: 0.5270, bleu4: 0.3279, bleu5: 0.2113
+adv_step: 220, nll_gen: 0.7231, bleu2: 0.7489, bleu3: 0.5274, bleu4: 0.3438, bleu5: 0.2158
+adv_step: 240, nll_gen: 0.7239, bleu2: 0.7563, bleu3: 0.5265, bleu4: 0.3245, bleu5: 0.2040
+adv_step: 260, nll_gen: 0.7247, bleu2: 0.7679, bleu3: 0.5556, bleu4: 0.3630, bleu5: 0.2331
+adv_step: 280, nll_gen: 0.7255, bleu2: 0.7726, bleu3: 0.5581, bleu4: 0.3509, bleu5: 0.2172
+adv_step: 300, nll_gen: 0.7264, bleu2: 0.7697, bleu3: 0.5423, bleu4: 0.3427, bleu5: 0.2197
+adv_step: 320, nll_gen: 0.7271, bleu2: 0.7650, bleu3: 0.5467, bleu4: 0.3509, bleu5: 0.2182
+adv_step: 340, nll_gen: 0.7277, bleu2: 0.7585, bleu3: 0.5315, bleu4: 0.3361, bleu5: 0.2108
+adv_step: 360, nll_gen: 0.7283, bleu2: 0.7636, bleu3: 0.5529, bleu4: 0.3659, bleu5: 0.2295
+adv_step: 380, nll_gen: 0.7288, bleu2: 0.7533, bleu3: 0.5292, bleu4: 0.3157, bleu5: 0.1903
+adv_step: 400, nll_gen: 0.7293, bleu2: 0.7648, bleu3: 0.5432, bleu4: 0.3474, bleu5: 0.2230
+adv_step: 420, nll_gen: 0.7298, bleu2: 0.7613, bleu3: 0.5326, bleu4: 0.3434, bleu5: 0.2231
+adv_step: 440, nll_gen: 0.7301, bleu2: 0.7652, bleu3: 0.5452, bleu4: 0.3420, bleu5: 0.2132
+adv_step: 460, nll_gen: 0.7304, bleu2: 0.7639, bleu3: 0.5461, bleu4: 0.3428, bleu5: 0.2233
+adv_step: 480, nll_gen: 0.7306, bleu2: 0.7605, bleu3: 0.5510, bleu4: 0.3519, bleu5: 0.2169
+adv_step: 500, nll_gen: 0.7308, bleu2: 0.7621, bleu3: 0.5316, bleu4: 0.3409, bleu5: 0.2183
+adv_step: 520, nll_gen: 0.7310, bleu2: 0.7664, bleu3: 0.5371, bleu4: 0.3395, bleu5: 0.2083
+adv_step: 540, nll_gen: 0.7311, bleu2: 0.7727, bleu3: 0.5531, bleu4: 0.3524, bleu5: 0.2165
+adv_step: 560, nll_gen: 0.7313, bleu2: 0.7551, bleu3: 0.5390, bleu4: 0.3503, bleu5: 0.2179
+adv_step: 580, nll_gen: 0.7315, bleu2: 0.7598, bleu3: 0.5330, bleu4: 0.3210, bleu5: 0.1945
+adv_step: 600, nll_gen: 0.7316, bleu2: 0.7545, bleu3: 0.5262, bleu4: 0.3382, bleu5: 0.2113
+adv_step: 620, nll_gen: 0.7317, bleu2: 0.7761, bleu3: 0.5600, bleu4: 0.3696, bleu5: 0.2328
+adv_step: 640, nll_gen: 0.7319, bleu2: 0.7731, bleu3: 0.5488, bleu4: 0.3526, bleu5: 0.2199
+adv_step: 660, nll_gen: 0.7317, bleu2: 0.7684, bleu3: 0.5432, bleu4: 0.3522, bleu5: 0.2220
+adv_step: 680, nll_gen: 0.7314, bleu2: 0.7512, bleu3: 0.5328, bleu4: 0.3435, bleu5: 0.2128
+adv_step: 700, nll_gen: 0.7311, bleu2: 0.7626, bleu3: 0.5434, bleu4: 0.3522, bleu5: 0.2165
+adv_step: 720, nll_gen: 0.7311, bleu2: 0.7743, bleu3: 0.5567, bleu4: 0.3639, bleu5: 0.2219
+adv_step: 740, nll_gen: 0.7310, bleu2: 0.7592, bleu3: 0.5340, bleu4: 0.3343, bleu5: 0.2064
+adv_step: 760, nll_gen: 0.7307, bleu2: 0.7641, bleu3: 0.5385, bleu4: 0.3501, bleu5: 0.2208
+adv_step: 780, nll_gen: 0.7304, bleu2: 0.7727, bleu3: 0.5582, bleu4: 0.3633, bleu5: 0.2301
+adv_step: 800, nll_gen: 0.7302, bleu2: 0.7616, bleu3: 0.5345, bleu4: 0.3412, bleu5: 0.2130
+adv_step: 820, nll_gen: 0.7298, bleu2: 0.7711, bleu3: 0.5511, bleu4: 0.3492, bleu5: 0.2173
+adv_step: 840, nll_gen: 0.7295, bleu2: 0.7731, bleu3: 0.5550, bleu4: 0.3682, bleu5: 0.2432
+adv_step: 860, nll_gen: 0.7294, bleu2: 0.7644, bleu3: 0.5494, bleu4: 0.3600, bleu5: 0.2303
+adv_step: 880, nll_gen: 0.7291, bleu2: 0.7630, bleu3: 0.5386, bleu4: 0.3507, bleu5: 0.2268
+adv_step: 900, nll_gen: 0.7287, bleu2: 0.7758, bleu3: 0.5521, bleu4: 0.3562, bleu5: 0.2193
+adv_step: 920, nll_gen: 0.7283, bleu2: 0.7697, bleu3: 0.5423, bleu4: 0.3483, bleu5: 0.2229
+adv_step: 940, nll_gen: 0.7279, bleu2: 0.7591, bleu3: 0.5254, bleu4: 0.3348, bleu5: 0.2187
+adv_step: 960, nll_gen: 0.7276, bleu2: 0.7536, bleu3: 0.5377, bleu4: 0.3484, bleu5: 0.2192
+adv_step: 980, nll_gen: 0.7273, bleu2: 0.7698, bleu3: 0.5521, bleu4: 0.3607, bleu5: 0.2248
+adv_step: 1000, nll_gen: 0.7271, bleu2: 0.7624, bleu3: 0.5415, bleu4: 0.3319, bleu5: 0.2019
+adv_step: 1020, nll_gen: 0.7271, bleu2: 0.7875, bleu3: 0.5786, bleu4: 0.3821, bleu5: 0.2412
+adv_step: 1040, nll_gen: 0.7271, bleu2: 0.7603, bleu3: 0.5503, bleu4: 0.3548, bleu5: 0.2165
+adv_step: 1060, nll_gen: 0.7269, bleu2: 0.7651, bleu3: 0.5552, bleu4: 0.3648, bleu5: 0.2275
+adv_step: 1080, nll_gen: 0.7268, bleu2: 0.7721, bleu3: 0.5508, bleu4: 0.3685, bleu5: 0.2351
+adv_step: 1100, nll_gen: 0.7268, bleu2: 0.7496, bleu3: 0.5106, bleu4: 0.3154, bleu5: 0.1979
+adv_step: 1120, nll_gen: 0.7265, bleu2: 0.7727, bleu3: 0.5501, bleu4: 0.3510, bleu5: 0.2210
+adv_step: 1140, nll_gen: 0.7261, bleu2: 0.7707, bleu3: 0.5571, bleu4: 0.3503, bleu5: 0.2184
+adv_step: 1160, nll_gen: 0.7258, bleu2: 0.7643, bleu3: 0.5470, bleu4: 0.3496, bleu5: 0.2160
+adv_step: 1180, nll_gen: 0.7255, bleu2: 0.7488, bleu3: 0.5214, bleu4: 0.3282, bleu5: 0.2015
+adv_step: 1200, nll_gen: 0.7253, bleu2: 0.7512, bleu3: 0.5327, bleu4: 0.3387, bleu5: 0.2195
+adv_step: 1220, nll_gen: 0.7251, bleu2: 0.7617, bleu3: 0.5393, bleu4: 0.3348, bleu5: 0.2087
+adv_step: 1240, nll_gen: 0.7250, bleu2: 0.7703, bleu3: 0.5478, bleu4: 0.3475, bleu5: 0.2187
+adv_step: 1260, nll_gen: 0.7247, bleu2: 0.7605, bleu3: 0.5333, bleu4: 0.3313, bleu5: 0.2068
+adv_step: 1280, nll_gen: 0.7245, bleu2: 0.7456, bleu3: 0.5124, bleu4: 0.3288, bleu5: 0.2061
+adv_step: 1300, nll_gen: 0.7244, bleu2: 0.7641, bleu3: 0.5362, bleu4: 0.3422, bleu5: 0.2201
+adv_step: 1320, nll_gen: 0.7241, bleu2: 0.7476, bleu3: 0.5106, bleu4: 0.3253, bleu5: 0.2070
+adv_step: 1340, nll_gen: 0.7239, bleu2: 0.7649, bleu3: 0.5582, bleu4: 0.3545, bleu5: 0.2239
+adv_step: 1360, nll_gen: 0.7238, bleu2: 0.7683, bleu3: 0.5356, bleu4: 0.3449, bleu5: 0.2168
+adv_step: 1380, nll_gen: 0.7235, bleu2: 0.7610, bleu3: 0.5507, bleu4: 0.3612, bleu5: 0.2367
+adv_step: 1400, nll_gen: 0.7234, bleu2: 0.7622, bleu3: 0.5429, bleu4: 0.3435, bleu5: 0.2164
+adv_step: 1420, nll_gen: 0.7233, bleu2: 0.7639, bleu3: 0.5377, bleu4: 0.3278, bleu5: 0.2002
+adv_step: 1440, nll_gen: 0.7232, bleu2: 0.7739, bleu3: 0.5446, bleu4: 0.3466, bleu5: 0.2152
+adv_step: 1460, nll_gen: 0.7230, bleu2: 0.7717, bleu3: 0.5449, bleu4: 0.3430, bleu5: 0.2140
+adv_step: 1480, nll_gen: 0.7228, bleu2: 0.7658, bleu3: 0.5432, bleu4: 0.3466, bleu5: 0.2108
+adv_step: 1500, nll_gen: 0.7227, bleu2: 0.7464, bleu3: 0.5222, bleu4: 0.3327, bleu5: 0.2106
+adv_step: 1520, nll_gen: 0.7227, bleu2: 0.7698, bleu3: 0.5576, bleu4: 0.3543, bleu5: 0.2218
+adv_step: 1540, nll_gen: 0.7225, bleu2: 0.7592, bleu3: 0.5294, bleu4: 0.3260, bleu5: 0.1981
+adv_step: 1560, nll_gen: 0.7223, bleu2: 0.7606, bleu3: 0.5419, bleu4: 0.3516, bleu5: 0.2207
+adv_step: 1580, nll_gen: 0.7224, bleu2: 0.7517, bleu3: 0.5295, bleu4: 0.3363, bleu5: 0.2075
+adv_step: 1600, nll_gen: 0.7224, bleu2: 0.7510, bleu3: 0.5424, bleu4: 0.3336, bleu5: 0.2036
+adv_step: 1620, nll_gen: 0.7223, bleu2: 0.7540, bleu3: 0.5481, bleu4: 0.3557, bleu5: 0.2231
+adv_step: 1640, nll_gen: 0.7222, bleu2: 0.7515, bleu3: 0.5279, bleu4: 0.3310, bleu5: 0.2077
+adv_step: 1660, nll_gen: 0.7221, bleu2: 0.7637, bleu3: 0.5390, bleu4: 0.3459, bleu5: 0.2211
+adv_step: 1680, nll_gen: 0.7220, bleu2: 0.7682, bleu3: 0.5484, bleu4: 0.3694, bleu5: 0.2282
+adv_step: 1700, nll_gen: 0.7218, bleu2: 0.7449, bleu3: 0.5180, bleu4: 0.3284, bleu5: 0.2051
+adv_step: 1720, nll_gen: 0.7218, bleu2: 0.7648, bleu3: 0.5424, bleu4: 0.3373, bleu5: 0.2052
+adv_step: 1740, nll_gen: 0.7217, bleu2: 0.7600, bleu3: 0.5285, bleu4: 0.3263, bleu5: 0.2046
+adv_step: 1760, nll_gen: 0.7216, bleu2: 0.7507, bleu3: 0.5150, bleu4: 0.3189, bleu5: 0.2015
+adv_step: 1780, nll_gen: 0.7214, bleu2: 0.7655, bleu3: 0.5408, bleu4: 0.3419, bleu5: 0.2188
+adv_step: 1800, nll_gen: 0.7210, bleu2: 0.7650, bleu3: 0.5341, bleu4: 0.3392, bleu5: 0.2148
+adv_step: 1820, nll_gen: 0.7208, bleu2: 0.7522, bleu3: 0.5379, bleu4: 0.3498, bleu5: 0.2244
+adv_step: 1840, nll_gen: 0.7207, bleu2: 0.7419, bleu3: 0.5122, bleu4: 0.3340, bleu5: 0.2091
+adv_step: 1860, nll_gen: 0.7205, bleu2: 0.7616, bleu3: 0.5393, bleu4: 0.3376, bleu5: 0.2078
+adv_step: 1880, nll_gen: 0.7206, bleu2: 0.7470, bleu3: 0.5195, bleu4: 0.3235, bleu5: 0.2018
+adv_step: 1900, nll_gen: 0.7206, bleu2: 0.7579, bleu3: 0.5319, bleu4: 0.3360, bleu5: 0.2084
+adv_step: 1920, nll_gen: 0.7204, bleu2: 0.7738, bleu3: 0.5471, bleu4: 0.3493, bleu5: 0.2215
+adv_step: 1940, nll_gen: 0.7203, bleu2: 0.7523, bleu3: 0.5468, bleu4: 0.3570, bleu5: 0.2290
+adv_step: 1960, nll_gen: 0.7203, bleu2: 0.7585, bleu3: 0.5397, bleu4: 0.3425, bleu5: 0.2206
+adv_step: 1980, nll_gen: 0.7204, bleu2: 0.7381, bleu3: 0.5083, bleu4: 0.3142, bleu5: 0.1911

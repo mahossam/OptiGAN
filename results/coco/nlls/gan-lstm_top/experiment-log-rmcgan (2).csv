@@ -1,0 +1,115 @@
+pre_gen_epoch:0   , 1.5311 
+pre_gen_epoch:10  , 0.9522 
+pre_gen_epoch:20  , 0.8402 
+pre_gen_epoch:30  , 0.8012 
+pre_gen_epoch:40  , 0.7775 
+pre_gen_epoch:50  , 0.7653 
+pre_gen_epoch:60  , 0.7532 
+pre_gen_epoch:70  , 0.7489 
+pre_gen_epoch:80  , 0.7366 
+pre_gen_epoch:90  , 0.7300 
+pre_gen_epoch:100 , 0.7253 
+pre_gen_epoch:110 , 0.7236 
+pre_gen_epoch:120 , 0.7191 
+pre_gen_epoch:130 , 0.7153 
+pre_gen_epoch:140 , 0.7169 
+adv_step: 0       , 0.7128 
+adv_step: 20      , 0.7128 
+adv_step: 40      , 0.7130 
+adv_step: 60      , 0.7135 
+adv_step: 80      , 0.7136 
+adv_step: 100     , 0.7137 
+adv_step: 120     , 0.7138 
+adv_step: 140     , 0.7143 
+adv_step: 160     , 0.7148 
+adv_step: 180     , 0.7153 
+adv_step: 200     , 0.7160 
+adv_step: 220     , 0.7167 
+adv_step: 240     , 0.7178 
+adv_step: 260     , 0.7187 
+adv_step: 280     , 0.7198 
+adv_step: 300     , 0.7207 
+adv_step: 320     , 0.7214 
+adv_step: 340     , 0.7222 
+adv_step: 360     , 0.7234 
+adv_step: 380     , 0.7247 
+adv_step: 400     , 0.7262 
+adv_step: 420     , 0.7272 
+adv_step: 440     , 0.7280 
+adv_step: 460     , 0.7290 
+adv_step: 480     , 0.7303 
+adv_step: 500     , 0.7308 
+adv_step: 520     , 0.7313 
+adv_step: 540     , 0.7323 
+adv_step: 560     , 0.7335 
+adv_step: 580     , 0.7343 
+adv_step: 600     , 0.7350 
+adv_step: 620     , 0.7352 
+adv_step: 640     , 0.7346 
+adv_step: 660     , 0.7351 
+adv_step: 680     , 0.7354 
+adv_step: 700     , 0.7358 
+adv_step: 720     , 0.7357 
+adv_step: 740     , 0.7355 
+adv_step: 760     , 0.7348 
+adv_step: 780     , 0.7351 
+adv_step: 800     , 0.7350 
+adv_step: 820     , 0.7352 
+adv_step: 840     , 0.7355 
+adv_step: 860     , 0.7352 
+adv_step: 880     , 0.7346 
+adv_step: 900     , 0.7343 
+adv_step: 920     , 0.7346 
+adv_step: 940     , 0.7344 
+adv_step: 960     , 0.7343 
+adv_step: 980     , 0.7335 
+adv_step: 1000    , 0.7332 
+adv_step: 1020    , 0.7334 
+adv_step: 1040    , 0.7329 
+adv_step: 1060    , 0.7317 
+adv_step: 1080    , 0.7313 
+adv_step: 1100    , 0.7306 
+adv_step: 1120    , 0.7303 
+adv_step: 1140    , 0.7299 
+adv_step: 1160    , 0.7299 
+adv_step: 1180    , 0.7293 
+adv_step: 1200    , 0.7288 
+adv_step: 1220    , 0.7288 
+adv_step: 1240    , 0.7285 
+adv_step: 1260    , 0.7287 
+adv_step: 1280    , 0.7286 
+adv_step: 1300    , 0.7284 
+adv_step: 1320    , 0.7280 
+adv_step: 1340    , 0.7283 
+adv_step: 1360    , 0.7278 
+adv_step: 1380    , 0.7281 
+adv_step: 1400    , 0.7276 
+adv_step: 1420    , 0.7269 
+adv_step: 1440    , 0.7266 
+adv_step: 1460    , 0.7262 
+adv_step: 1480    , 0.7257 
+adv_step: 1500    , 0.7263 
+adv_step: 1520    , 0.7259 
+adv_step: 1540    , 0.7260 
+adv_step: 1560    , 0.7258 
+adv_step: 1580    , 0.7261 
+adv_step: 1600    , 0.7265 
+adv_step: 1620    , 0.7271 
+adv_step: 1640    , 0.7276 
+adv_step: 1660    , 0.7286 
+adv_step: 1680    , 0.7284 
+adv_step: 1700    , 0.7271 
+adv_step: 1720    , 0.7263 
+adv_step: 1740    , 0.7257 
+adv_step: 1760    , 0.7256 
+adv_step: 1780    , 0.7262 
+adv_step: 1800    , 0.7272 
+adv_step: 1820    , 0.7270 
+adv_step: 1840    , 0.7265 
+adv_step: 1860    , 0.7262 
+adv_step: 1880    , 0.7261 
+adv_step: 1900    , 0.7257 
+adv_step: 1920    , 0.7254 
+adv_step: 1940    , 0.7256 
+adv_step: 1960    , 0.7254 
+adv_step: 1980    , 0.7247 
