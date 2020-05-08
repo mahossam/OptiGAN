@@ -2,7 +2,7 @@
 
 This repository contains the code for text generation results 
 of the paper:  
-[OptiGAN: Generative Adversarial Networks for Goal Optimized Sequence Generation](https://arxiv.org/pdf/2004.07534.pdf), The 2020 International Joint Conference on Neural Networks (IJCNN), 2020.
+[OptiGAN: Generative Adversarial Networks for Goal Optimized Sequence Generation](https://arxiv.org/abs/2004.07534), The 2020 International Joint Conference on Neural Networks (IJCNN), 2020.
 
 
 ## Dependencies
