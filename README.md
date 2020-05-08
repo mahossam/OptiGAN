@@ -1,10 +1,8 @@
 ## OptiGAN
 
 This repository contains the code to reproduce the core results 
-from of OptiGAN
-```
-Mahmoud Hossam, Trung Le, Viet Huynh, Michael Papasimeon, and Dinh Phung. OptiGAN: Generative Adversarial Networks for Goal Optimized Sequence Generation. The 2020 International Joint Conference on Neural Networks (IJCNN 2020)
-```
+from of [OptiGAN: Generative Adversarial Networks for Goal Optimized Sequence Generation](https://arxiv.org/pdf/2004.07534.pdf), The 2020 International Joint Conference on Neural Networks (IJCNN), 2020
+
 
 ## Dependencies
 This project uses Python 3.6.x, with the following lib dependencies:
