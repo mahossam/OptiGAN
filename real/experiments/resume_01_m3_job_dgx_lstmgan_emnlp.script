@@ -1,0 +1,36 @@
+#!/bin/bash
+#SBATCH --job-name=RelGAN_Job
+#SBATCH --account=pb91
+
+#SBATCH --partition=dgx
+#SBATCH --qos=dgx
+#SBATCH --ntasks=8
+#SBATCH --ntasks-per-node=8
+#SBATCH --cpus-per-task=1
+#SBATCH --gres=gpu:8
+#SBATCH --mem-per-cpu=10000
+
+#SBATCH --mail-user=mhossam@monash.edu
+#SBATCH --mail-type=BEGIN,END,FAIL
+
+#SBATCH --error=RelGAN_job-%j.err
+#SBATCH --output=RelGAN_job-%j.out
+#SBATCH --time=24:00:00
+
+nvidia-smi
+# module load cuda
+
+# export PATH="/home/mahmoudm/anaconda3/bin:$PATH"
+. /home/mahmoudm/anaconda3/etc/profile.d/conda.sh
+conda activate tf_new_py3
+
+pwd
+date
+
+# python emnlp_small_lstmgan_pg_rl_only_baseline.py 0 0 --load_saved_model='real/experiments/out/20191114/emnlp_news_small/lstmgan_rl_only_True_pg_bline_True/032024712590/tf_logs/checkpt-1474' --saved_global_step=1475
+
+python emnlp_small_lstmgan_pg_baseline.py 0 0 --load_saved_model='real/experiments/out/20191122/emnlp_news_small/lstmgan_rl_only_False_pg_bline_True_bsl2.5_mc_3/220728602067/tf_logs/checkpt-218' --saved_global_step=219
+
+
+
+date

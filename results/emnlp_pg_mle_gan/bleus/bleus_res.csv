@@ -1,0 +1,2 @@
+Model,BLEU-2,BLEU-3,BLEU-4,BLEU-5
+gan-lstm-pg_mle_gan,74.03 \pm 1.69,48.73 \pm 1.08,26.64 \pm 1.07,14.05 \pm 0.79

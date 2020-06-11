@@ -68,6 +68,8 @@ def real_train(generator, discriminator, oracle_loader, config, word_index_dict,
     # generator and discriminator outputs
     if '_pg' in config['g_architecture'] and '_pg' in config['d_architecture']:
         x_fake_onehot_appr, x_fake, x_fake_sample, g_pretrain_loss, gen_o, given_num, r_x, r_gen_x, r_gen_x_sample = generator(x_real=x_real, temperature=temperature)
+        if '_mle_gan' in config['g_architecture'] and '_mle_gan' in config['d_architecture']:
+            print("PG_MLE_GAN found")
     else:
         x_fake_onehot_appr, x_fake, g_pretrain_loss, gen_o = generator(x_real=x_real, temperature=temperature)
 
@@ -88,7 +90,7 @@ def real_train(generator, discriminator, oracle_loader, config, word_index_dict,
         rl_summaries = [tf.summary.histogram("RL/rewards", rewards)]
 
     log_pg, g_loss, d_loss, reinforce_loss = get_losses(d_out_real, d_out_fake, x_real_onehot, x_fake_onehot_appr,
-                                                    gen_o, discriminator, config, rewards, initial_samples_for_rewards)
+                                                    gen_o, discriminator, config, rewards, initial_samples_for_rewards, g_pretrain_loss)
 
     # Global step
     global_step = tf.Variable(config['saved_global_step'], trainable=False)
@@ -139,7 +141,7 @@ def real_train(generator, discriminator, oracle_loader, config, word_index_dict,
 
         metrics = get_metrics(config, oracle_loader, test_file, gen_text_file, g_pretrain_loss, x_real, sess)
 
-        log_header_names = "epoch, " + ", ".join([f", {metric.get_name()}" for metric in metrics])
+        log_header_names = "epoch, " + ", ".join([f"{metric.get_name()}" for metric in metrics])
         log.write(log_header_names)
         log.write('\n')
         if load_model == False:
@@ -193,8 +195,11 @@ def real_train(generator, discriminator, oracle_loader, config, word_index_dict,
                     elif config['rl_method'] == 2:
                         samples_for_rewards, reinforce_rewards, first, all_bleu_metrics = _get_rewards_02(config, oracle_loader, x_fake_for_rewards, given_num, r_x, r_gen_x, r_gen_x_sample, eof_code, sess, first, all_bleu_metrics)
                     _, g_loss_np, d_loss_np, loss_summary_str, reinforce_loss_str = sess.run([g_train_op, g_loss, d_loss, loss_summary_op, reinforce_loss], feed_dict={x_real: oracle_loader.random_batch(), rewards: reinforce_rewards, initial_samples_for_rewards: samples_for_rewards})
+                    # _, reinforce_loss_str = sess.run([g_train_op, reinforce_loss], feed_dict={rewards: reinforce_rewards, initial_samples_for_rewards: samples_for_rewards})
+                    # g_loss_np, d_loss_np, loss_summary_str = sess.run([g_loss, d_loss, loss_summary_op], feed_dict={x_real: oracle_loader.random_batch(), rewards: reinforce_rewards, initial_samples_for_rewards: samples_for_rewards})
                 else:
-                    sess.run(g_train_op, feed_dict={x_real: oracle_loader.random_batch()})
+                    # sess.run(g_train_op, feed_dict={x_real: oracle_loader.random_batch()})
+                    sess.run(g_train_op)
             for _ in range(config['dsteps']):
                 sess.run(d_train_op, feed_dict={x_real: oracle_loader.random_batch()})
 
@@ -257,7 +262,7 @@ def real_train(generator, discriminator, oracle_loader, config, word_index_dict,
 
 
 # A function to get different GAN losses
-def get_losses(d_out_real, d_out_fake, x_real_onehot, x_fake_onehot_appr, gen_o, discriminator, config, rewards=None, initial_samples_for_rewards=None):
+def get_losses(d_out_real, d_out_fake, x_real_onehot, x_fake_onehot_appr, gen_o, discriminator, config, rewards=None, initial_samples_for_rewards=None, g_pretrain_loss=None):
     batch_size = config['batch_size']
     gan_type = config['gan_type']
     seq_len = config['seq_len']
@@ -350,6 +355,10 @@ def get_losses(d_out_real, d_out_fake, x_real_onehot, x_fake_onehot_appr, gen_o,
             d_loss = tf.get_variable("dummy_d_loss", initializer=0.0, trainable=False)
         else:
             g_loss += reinforce_loss
+            if '_mle_gan' in config['g_architecture'] and '_mle_gan' in config['d_architecture']:
+                print("Adding MLE loss to PG_GAN")
+                g_loss += g_pretrain_loss
+
 
     log_pg = tf.reduce_mean(tf.log(gen_o + EPS))  # [1], measures the log p_g(x)
 

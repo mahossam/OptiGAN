@@ -77,7 +77,7 @@ def plot():
 
 
 print('adversarial evalutation:')
-adversarial_epoch_num = 2000
+adversarial_epoch_num = 1020+1
 progress_adv = tqdm(range(adversarial_epoch_num))        
 
 for epoch in progress_adv:

@@ -20,12 +20,12 @@ The `experiments` folders contain scripts for starting the different experiments
 For example, to reproduce the `COCO Image Captions` experiments, you can try :
 ```
 cd real/experiments
-python coco_lstmgan_pg_baseline.py [job_id] [gpu_id]
+python coco_lstmgan_pg_baseline_mle_gan.py [job_id] [gpu_id]
 ```
 or `EMNLP2017 WMT News`:
 ```
 cd real/experiments
-python3 emnlp_small_lstmgan_pg_baseline.py [job_id] [gpu_id]
+python3 emnlp_small_lstmgan_pg_baseline_mle_gan.py [job_id] [gpu_id]
 ```
 Note to replace [job_id] and [gpu_id] with appropriate numerical values, (0, 0) for example.
 

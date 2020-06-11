@@ -1,7 +1,0 @@
-Model,NLL
-pure-rl,2.349 \pm 0.206
-pure-rl-Higher,2.348 \pm 0.200
-seqgan,2.905 \pm 0.448
-gan-lstm,2.222 \pm 0.133
-gan-lstm-pg,2.225 \pm 0.134
-pure-rl-Lower,2.354 \pm 0.235
