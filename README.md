@@ -30,14 +30,16 @@ python3 emnlp_small_lstmgan_pg_baseline_mle_gan.py [job_id] [gpu_id]
 Note to replace [job_id] and [gpu_id] with appropriate numerical values, (0, 0) for example.
 
 ## Reference
-To cite this work, please use
+To cite this work, please use:
 ```
-@INPROCEEDINGS{,
-  author = {Mahmoud Hossam, Trung Le, Viet Huynh, Michael Papasimeon, and Dinh Phung},
-  title = {{OptiGAN: Generative Adversarial Networks for Goal Optimized Sequence Generation}},
-  booktitle = {The 2020 International Joint Conference on Neural Networks ({IJCNN})},
-  year = {2020}
-}
+@INPROCEEDINGS{9206842,
+  author={M. {Hossam} and T. {Le} and V. {Huynh} and M. {Papasimeon} and D. {Phung}},
+  booktitle={2020 International Joint Conference on Neural Networks (IJCNN)}, 
+  title={{OptiGAN: Generative Adversarial Networks for Goal Optimized Sequence Generation}}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-8},}
 ```
 
 ## Acknowledgement
