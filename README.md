@@ -39,7 +39,8 @@ To cite this work, please use:
   year={2020},
   volume={},
   number={},
-  pages={1-8},}
+  pages={1-8}
+}
 ```
 
 ## Acknowledgement
